@@ -1,0 +1,6 @@
+Data pre-processing steps: 
+1 - Convert the text to lowercase to ensure consistency.
+2 - Tokenization
+3 - Stopword Removal
+5 - Handling Contractions
+6 - Stemming and Lemmatization

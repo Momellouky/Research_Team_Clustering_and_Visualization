@@ -1,0 +1,36 @@
+In the context of NLP. Topic modeling is the process of infering 
+topics from a document (or a set of documents). Topics are essentialy 
+themes that group a set of words. 
+
+In topic modeling, we can use different algorithms. One of them is LDA.
+LDA stands for Latent Dirichlet Allocation, which is a probabilistic 
+approach for infering topics from a set of documents given the number 
+of topics (k). However, there exists other algorithms that aims to 
+achieve the same result. 
+
+The following is a list of these algorithms: 
+* Hierarchical Dirichlet Process : which is an extention of LDA that 
+automatically infers the number of topics. Eventhough the number of 
+topics is automaticaly set. The algorithm is theoretically able to 
+Handles the issue of topic proliferation.
+
+* Non-Negative Matrix Factorization (NMF) : 
+Non-Negative Matrix Factorization (NMF) is a dimensionality reduction 
+technique commonly used for feature extraction and topic modeling 
+in natural language processing. The key idea behind NMF is to factorize 
+a given matrix into two non-negative matrices whose product approximates 
+the original matrix. In the context of text data, the matrix typically represents 
+the term-document matrix, where rows correspond to terms (words) 
+and columns correspond to documents.
+
+* Latent Semantic Analysis (LSA), also known as Latent Semantic Indexing (LSI), 
+is a technique used in natural language processing and information retrieval 
+to discover the hidden relationships between terms and documents. LSA employs singular 
+value decomposition (SVD) to transform a term-document matrix into a lower-dimensional 
+representation, capturing the underlying semantic structure in the data.  
+
+* The Correlated Topic Model (CTM) is an extension of the Latent Dirichlet Allocation (LDA), 
+designed to model correlations between topics. Like LDA, CTM is a generative probabilistic model 
+commonly used for topic modeling in natural language processing. The key innovation in CTM 
+is the introduction of correlations among topics, allowing a more flexible representation 
+of the relationships between topics.

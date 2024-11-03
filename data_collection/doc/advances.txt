@@ -1,0 +1,23 @@
+Data pre-processing steps: 
+1 - Convert the text to lowercase to ensure consistency. done
+2 - Tokenization Done
+3 - Stopword Removal 
+5 - Handling Contractions
+6 - Stemming and Lemmatization
+* traduction
+* NaN
+* Traiter le cas ou l'abstract est absent. Ajouter l'ISBN ou DOI (Titre si ISBN et DOI n'existent pas) dans la requete. 
+Lister les articles qui ont pas des abstract. Ajouter l'abstract manuallement. 
+poster article(ART) proceeding COMM
+two version en and fr --> delete one --> chatGPT API
+
+GPT4ALL n'est pas consistant. En plus, le temps d'inference est relativement long (20s). On voulais utilisé GPT4ALL pour 
+traduire les données ecrites en francais en anglais. Par conséquent, on a fait cet etape manuellement en modifiant sur les fichiers CSV. 
+
+
+----------------------------------- 
+
+17 jan 2024 
+Visualiser les resultats de LDA. 
+Calculer la distance entre les auteurs => (Fac. visualiser la distances entre les auteurs.) 
+Normaliser les données (liste auteurs, topics) pour calculer la distance et visualiser les auteurs et les topics ensembles.
